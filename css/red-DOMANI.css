@@ -171,7 +171,7 @@ height: 200px;
     transform:scale(1,1.4);
 }
 #head{
-    background-image: url("../images/header.jpg");
+    background-image: url("../images/Header-1.jpg");
     background-size: 100%;
     width: 1200px;
     height: 600px;
@@ -218,7 +218,7 @@ top: 20px;
     left: 80px;
     width: 1040px;
     height: 500px;
-    background-image: url("../images/Block1.jpg");
+    background-image: url("../images/block111.jpg");
     background-size: 100%;
 }
 #block_txt1{
