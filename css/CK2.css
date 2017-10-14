@@ -1,0 +1,570 @@
+#yemian{
+    width: 1200px;
+    height:4100px;
+    margin: auto;
+}
+#yemian:hover{
+    cursor: url("../images/cursor.png") ;
+}
+/*div{
+    border: 1px red solid;
+}*/
+#top{
+    position: fixed;
+    background-color:#FEFEFE ;
+    width: 1200px;
+    height: 50px;
+    opacity: 0.9;
+    z-index: 100;
+}
+.Relative{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+#top_left{
+    top: 12px;
+    left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+a{
+    color: black;
+    text-decoration:none;
+}
+#top_center1{
+    top: 17px;
+    left: 460px;
+    height: 33px;
+    font-weight: bold;
+    overflow: hidden;
+}
+#top_center1_down{
+    top: 33px;
+    width: 100%;
+    height: 1px;
+    background-color: blue;
+    transition:all 1s linear;
+}
+#top_center2_down{
+    top: 33px;
+    width: 100%;
+    height: 1px;
+    background-color: blue;
+    transition:all 1s linear;
+}
+#top_center1:hover #top_center1_down{
+    transform:scale(1,8);
+}
+
+#top_center2:hover #top_center2_down{
+    transform:scale(1,8);
+}
+#top_center2{
+    top: 17px;
+    overflow: hidden;
+    height: 33px;
+    left: 578px;
+    font-weight: bold;
+
+}
+#top_center3{
+    width: 110px;
+    height: 33px;
+    top: 17px;
+    left: 685px;
+    font-weight: bold;
+    transition:all 1s linear;
+}
+#top_center_icon{
+    left: 92px;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+}
+#img_down{
+    background-image: url("../images/more_unfold.png");
+    background-size: 100%;
+    z-index: 10;
+    width: 15px;
+    height: 15px;
+}
+#img_up{
+    background-image: url("../images/less.png");
+    background-size: 100%;
+    z-index: 5;
+    width: 15px;
+    opacity: 0;
+    height: 15px;
+}
+#top_center3:hover #img_down{
+    opacity: 0;
+}
+#top_center3:hover  #img_up{
+    opacity: 1;
+}
+#drop_down_box{
+    width: 215px;
+    height: 0px;
+    top: 30px;
+    left: -105px;
+    overflow: hidden;
+    opacity: 0;
+    transition:all 1s linear;
+}
+#drop_down{
+    background-color: #FEFEFE;
+    width: 240px;
+    height: 200px;
+    right: 8px;
+    overflow: hidden;
+    /*border: 1px blue solid;*/
+}
+ul{
+    font-size: 12px;
+    line-height: 200%;
+    text-align: right;
+    list-style: none;
+    font-weight: bold;
+}
+#top_center3:hover  #drop_down_box{
+    opacity: 1;
+    height: 200px;
+}
+.opacity{
+    opacity: 0.2;
+}
+#top_right{
+    top: 20px;
+    left: 1000px;
+    width: 150px;
+    height:13px;
+}
+#top_right1{
+    width: 13px;
+    height: 13px;
+    background-image: url("../images/系统返回.png");
+    background-size: 100%;
+    transition:all 1s linear;
+}
+#top_right2{
+    top: -3px;
+    left: 20px;
+    font-weight: bold;
+}
+#top_right:hover #top_right1{
+    transform:translate(-10px,0px);
+}
+#menu{
+    top: 13px;
+    left: 1140px;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+#menu_hover{
+    transition:all 1s linear;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/菜单.png");
+    background-size: 100%;
+}
+#menu:hover #menu_hover{
+    transform:scale(1,1.4);
+}
+#head{
+    background-image: url("../images/Optimized_Header3.jpg");
+    background-size: 100%;
+    width: 1200px;
+    height: 600px;
+}
+#txt{
+    top: 520px;
+    left: 170px;
+    width: 1020px;
+    height: 370px;
+    background-color: #FEFEFE;
+    box-shadow: 30px 30px 100px #888888;
+
+}
+#txt_left{
+    top: 20px;
+    left: 30px;
+    width:650px ;
+    height: 350px;
+}
+#txt_right{
+    left: 730px;
+    top: 20px;
+    width: 280px;
+    height: 350px;
+    text-align: right;
+
+}
+#txt_span{
+    line-height: 120%;
+
+}
+.a_un{
+    text-decoration: underline;
+}
+.a_un:hover{
+    color: blue;
+}
+#block{
+    width: 1200px;
+    height: 950px;
+    top: 1000px;
+}
+#block_img{
+    left: 80px;
+    width: 1040px;
+    height: 500px;
+    background-image: url("../images/05-2.jpg");
+    background-size: 100%;
+}
+#block_txt1{
+    font-size: 25px;
+    width: 250px;
+    top: 450px;
+    height: 50px;
+    background-color: #FEFEFE;
+    left: 80px;
+    text-align: center;
+    font-weight:bold;
+}
+#block_span{
+    height: 50px;
+    line-height: 50px;
+}
+#block_txt2{
+    top: 500px;
+    left: 80px;
+    width: 1040px;
+    height: 350px;
+    box-shadow: 40px 40px 100px #888888;
+}
+#block_txt_left{
+
+    width: 750px;
+    height: 350px;
+    font-size: 16px;
+    line-height: 150%;
+}
+#block_txt_right{
+    left: 800px;
+    width: 240px;
+    height: 350px;
+
+}
+#block_ul{
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    list-style: none;
+    font-weight:normal;
+    font-style:italic;
+}
+#click{
+    width: 1200px;
+    height: 756px;
+    top: 1950px;
+    overflow: hidden;
+}
+#img{
+    width: 4824px;
+    height: 756px;
+    left: 0px;
+}
+#left{
+    top:363px;
+}
+#right{
+    top:363px;
+    left: 1130px;
+}
+#d_block{
+    top: 2800px;
+    left: 300px;
+    width:900px ;
+    height: 570px;
+    overflow: hidden;
+}
+#d_img{
+    width: 2716px;
+    height: 570px;
+}
+#d_left{
+    left: 755px;
+    top: 540px;
+    width: 70px;
+    height: 30px;
+}
+#d_right{
+    left: 825px;
+    top: 540px;
+    width: 70px;
+    height: 30px;
+}
+#d_txt{
+    box-shadow:  40px 40px 115px #888888;;
+    background-color: #FFF;
+    line-height: 130%;
+    font-size: 16px;
+    top: 3270px;
+    left: 100px;
+    width: 300px;
+    height: 150px;
+}
+
+#bottom{
+    top: 3500px;
+    width: 1200px;
+    height: 375px;
+}
+#bottom_left{
+    width: 200px;
+    height: 375px;
+    background-color: black;
+    color: white;
+}
+#bottom_left_1{
+    top: 20px;
+    left: 25px;
+    font-weight: bold;
+}
+#bottom_left_2{
+    top: 330px;
+    left: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#bottom_center1_1{
+    left: 200px;
+    width: 333px;
+    height: 375px;
+    overflow: hidden;
+}
+#bottom_center1_1:hover  #bottom_center1{
+    transform:scale(1.1,1.1);
+}
+#bottom_center1{
+    transition:all 1s linear;
+    width: 333px;
+    height: 375px;
+    background-image: url("../images/THUMB_oirbe_ret.jpg");
+    background-size: 100%;
+    overflow: hidden;
+}
+#bottom_center1_Horizontal{
+    top: 330px;
+    left: 25px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/运算-减.png");
+    background-size: 100%;
+    opacity: 0.8;
+    z-index: 10;
+}
+#bottom_center1_Vertical{
+    top: 330px;
+    left: 25px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/运算-减.png");
+    transform:rotate(90deg);
+    background-size: 100%;
+    opacity: 0.8;
+    transition: all 1s linear ;
+    z-index: 110;
+
+}
+#bottom_center1_1:hover #bottom_center1_Vertical{
+    transform:rotate(180deg);
+}
+#bottom_center1_1:hover #bottom_center1_bottom{
+    height: 50px;
+    transform:translate(0px,-50px) ;
+}
+#bottom_center1_bottom{
+    top: 376px;
+    padding-left: 260px;
+    width: 333px;
+    height: 1px;
+    transition: all 1s linear ;
+    overflow: hidden;
+    /*text-align: right;*/
+    font-weight: bold;
+    background-color: rgb(93,44,205);
+}
+#bottom_center2{
+    transition: all 1s linear ;
+    width: 333px;
+    height: 375px;
+    background-image: url("../images/work-thumb1.jpg");
+    background-size: 100%;
+    overflow: hidden;
+}
+#bottom_center2_1{
+    left: 533px;
+    width: 333px;
+    height: 375px;
+    overflow: hidden;
+}
+#bottom_center2_1:hover  #bottom_center2{
+    transform:scale(1.1,1.1);
+}
+#bottom_center2_Horizontal{
+    top: 330px;
+    left: 25px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/运算-减.png");
+    background-size: 100%;
+    opacity: 0.8;
+    z-index: 10;
+}
+#bottom_center2_Vertical{
+    top: 330px;
+    left: 25px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/运算-减.png");
+    transform:rotate(90deg);
+    background-size: 100%;
+    opacity: 0.8;
+    transition: all 1s linear ;
+    z-index: 10;
+
+}
+#bottom_center2_1:hover #bottom_center2_Vertical{
+    transform:rotate(180deg);
+}
+#bottom_center2_1:hover #bottom_center2_bottom{
+    height: 50px;
+    transform:translate(0px,-50px);
+}
+#bottom_center2_bottom{
+    top: 376px;
+    padding-left: 160px;
+    width: 333px;
+    height: 1px;
+    transition: all 1s linear ;
+    overflow: hidden;
+/*
+    text-align: right;
+*/
+    font-weight: bold;
+    background-color: rgb(93,44,205);
+}
+#bottom_right{
+    transition:all 1s linear;
+    width: 333px;
+    height: 375px;
+    background-image: url("../images/work-thumb3.jpg");
+    background-size: 100%;
+    overflow: hidden;
+}
+#bottom_right_1{
+    left: 866px;
+    width: 333px;
+    height: 375px;
+    overflow: hidden;
+}
+#bottom_right_1:hover  #bottom_right{
+    transform:scale(1.1,1.1);
+}
+#bottom_right_Horizontal{
+    top: 330px;
+    left: 25px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/运算-减.png");
+    background-size: 100%;
+    opacity: 0.8;
+    z-index: 10;
+}
+#bottom_right_Vertical{
+    top: 330px;
+    left: 25px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/运算-减.png");
+    transform:rotate(90deg);
+    background-size: 100%;
+    opacity: 0.8;
+    transition: all 1s linear ;
+    z-index: 10;
+
+}
+#bottom_right_1:hover #bottom_right_Vertical{
+    transform:rotate(180deg);
+}
+#bottom_right_1:hover #bottom_right_bottom{
+    height: 50px;
+    transform:translate(0px,-50px);
+}
+#bottom_right_bottom{
+    top: 376px;
+    width: 333px;
+    height: 1px;
+    transition: all 1s linear ;
+    overflow: hidden;
+    text-align: right;
+    font-weight: bold;
+    background-color: rgb(93,44,205);
+}
+
+#footer{
+    top: 3878px;
+    width: 1000px;
+    height: 200px;
+    background-color: #181719;
+}
+#footer_left{
+    width: 200px;
+    height: 100px;
+    top: 30px;
+    left: 80px;
+    color: white;
+    font-size: 12px;
+}
+#footer_center1{
+    width: 200px;
+    height: 100px;
+    top: 35px;
+    left: 300px;
+    color: white;
+    font-size: 12px;
+    line-height: 120%;
+}
+#footer_center2{
+    left: 520px;
+    top: 35px;
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-size: 12px;
+    line-height: 120%;
+}
+.hover:hover{
+    color: red;
+}
+.hover1{
+    text-decoration: underline;
+    color: white
+}
+.hover1:hover{
+    color: red;
+    color: red;
+}
+#footer_right{
+    top: 80px;
+    left: 950px;
+    transform:rotate(-90deg);
+    color: white;
+}
+#footer_right:hover{
+    color: red;
+}
